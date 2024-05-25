@@ -1,0 +1,178 @@
+{
+    "showcase": [
+        {
+            "title": "Posyandu",
+            "description": "Sistem Informasi Posyandu",
+            "image": "public/images/kelompok-1.png",
+            "site" : "https://satu.campus-project.cloud",
+            "github": "https://github.com/MuhammadKhairunnasNurdin/Laravel_PBL.git",
+            "maintainer": [
+                {
+                    "name": "Aunurrofiq Farhan Zuhdi",
+                    "nim": "2241720198"
+                },
+                {
+                    "name": "Lukman Eka Septiawan",
+                    "nim": "2241720049"
+                },
+                {
+                    "name": "Muhammad Khairunnas Nurdin",
+                    "nim": "2241720133"
+                },
+                {
+                    "name": "Muhammad Rizky Fauzi",
+                    "nim": "2241720221"
+                },
+                {
+                    "name": "Reza Arya Wijaya",
+                    "nim": "2241720252"
+                }
+            ]
+        },
+        {
+            "title": "SIRW03",
+            "description": "Sistem Informasi Rukun Warga 03",
+            "image": "public/images/kelompok-2.png",
+            "site" : "https://dua.campus-project.cloud",
+            "github": "https://github.com/delafarahita/SIRW03.git",
+            "maintainer": [
+                {
+                    "name": "Ahmad Saiful Mutaqi Azis",
+                    "nim": "2341728022"
+                },
+                {
+                    "name": "Brilliantna Salsabila Arifin",
+                    "nim": "2241720041"
+                },
+                {
+                    "name": "Cinthya Achwatul Ifnu",
+                    "nim": "2241720051"
+                },
+                {
+                    "name": "Dela Farahita Zain",
+                    "nim": "2241720058"
+                },
+                {
+                    "name": "Halur Muhammad Abiyyu",
+                    "nim": "2141720072"
+                }
+            ]
+        },
+        {
+            "title": "SIRTo",
+            "description": "Sistem Informasi Rukun Tetangga Online",
+            "image": "public/images/kelompok-3.png",
+            "site" : "https://tiga.campus-project.cloud",
+            "github": "https://github.com/amandafadilaerros/SiRTo",
+            "maintainer": [
+                {
+                    "name": "Amanda Fadila Erros",
+                    "nim": "2241720177"
+                },
+                {
+                    "name": "Ravsanjani Rafli A",
+                    "nim": "2241720121"
+                },
+                {
+                    "name": "Yayun Eldina",
+                    "nim": "2241720065"
+                },
+                {
+                    "name": "Yunila Putmasari",
+                    "nim": "2241720062"
+                },
+                {
+                    "name": "Yoga Pradana",
+                    "nim": "2341728021"
+                }
+            ]
+        },
+        {
+            "title": "SatuRT",
+            "description": "Sistem Administrasi Terpadu Rukun Tetangga",
+            "image": "public/images/kelompok-4.png",
+            "site" : "https://empat.campus-project.cloud",
+            "github": "https://github.com/Eddav29/SatuRT/tree/dev",
+            "maintainer": [
+                {
+                    "name": "Achmad Raihan Fahrezi Effendy",
+                    "nim": "2241720192"
+                },
+                {
+                    "name": "Eddo Dava Alfarisi",
+                    "nim": "2241720232"
+                },
+                {
+                    "name": "Muhammad Fathurrozak Al Qoroni",
+                    "nim": "2241720109"
+                },
+                {
+                    "name": "Putra Zakaria Muzaki",
+                    "nim": "2241720220"
+                },
+                {
+                    "name": "Vunky Himawan",
+                    "nim": "2241720005"
+                }
+            ]
+        },
+        {
+            "title": "ComplexHub",
+            "description": "Sistem Informasi Kompleks Perumahan",
+            "image": "public/images/kelompok-5.png",
+            "site" : "https://lima.campus-project.cloud",
+            "github": "https://github.com/andybima6/ComplexHub.git",
+            "maintainer": [
+                {
+                    "name": "Andy Nugraha Putra",
+                    "nim": "2241720006"
+                },
+                {
+                    "name": "Arya Bagus Putra Pratama",
+                    "nim": "2241720094"
+                },
+                {
+                    "name": "Ellois Karina Handoyo",
+                    "nim": "2241720154"
+                },
+                {
+                    "name": "Kinata Dewa Ariandi",
+                    "nim": "2241720087"
+                },
+                {
+                    "name": "Sovylia Adeleina",
+                    "nim": "2341728007"
+                }
+            ]
+        },
+        {
+            "title": "Siwet",
+            "description": "Sistem Informasi Warga Era Baru",
+            "image": "public/images/kelompok-6.png",
+            "site" : "https://enam.campus-project.cloud",
+            "github": "https://github.com/RiskiAbdiRahmawan/SIWET.git",
+            "maintainer": [
+                {
+                    "name": "Achmad Syahrul Faroh",
+                    "nim": "2241720259"
+                },
+                {
+                    "name": "Joyo Sugito",
+                    "nim": "2241720028"
+                },
+                {
+                    "name": "Joyo Sugito",
+                    "nim": "2241720050"
+                },
+                {
+                    "name": "Muhammad Iqbal Muhtaram",
+                    "nim": "2241720265"
+                },
+                {
+                    "name": "Riski Abdi Rahmawan",
+                    "nim": "2241720060"
+                }
+            ]
+        }
+    ]
+}
