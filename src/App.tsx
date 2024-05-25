@@ -1,8 +1,9 @@
 import { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// Lazy load the pages
-const Home = lazy(() => import('./pages/LandingPage/Home'));
+const fakeDelay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const Home = lazy(() => fakeDelay(4000).then(() => import('./pages/LandingPage/Home')));
 
 // Loading component
 import Loading from './pages/Loading'

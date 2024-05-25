@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Heading from "../../../components/Heading";
 import data from "../../../data/data.json";
 
@@ -40,6 +40,17 @@ const ShowCase: React.FC = () => {
                 <img
                   draggable={false}
                   src={item.image}
+                  loading="lazy"
+                  fetchPriority="high"
+                  decoding="async"
+                  srcSet={
+                    item.image +
+                    " 300w, " +
+                    item.image + " 768w, " +
+                    item.image + " 1280w" +
+                    item.image + " 1920w" +
+                    item.image + " 2560w"
+                  }
                   alt={`image - ${item.title}`}
                   className="w-full h-full object-cover rounded hover:scale-105 hover:grayscale transition-all duration-500"
                 />
@@ -68,6 +79,9 @@ const ShowCase: React.FC = () => {
               <img
                 draggable={false}
                 src={selectedItem.image}
+                loading="lazy"
+                fetchPriority="high"
+                decoding="async"
                 alt={`image - ${selectedItem.title}`}
                 className="w-full h-3/4 object-cover rounded"
               />

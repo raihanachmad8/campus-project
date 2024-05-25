@@ -3,7 +3,7 @@
         {
             "title": "Posyandu",
             "description": "Sistem Informasi Posyandu",
-            "image": "/images/kelompok-1.png",
+            "image": "/images/kelompok-1.webp",
             "site" : "https://satu.campus-project.cloud",
             "github": "https://github.com/MuhammadKhairunnasNurdin/Laravel_PBL.git",
             "maintainer": [
@@ -32,7 +32,7 @@
         {
             "title": "SIRW03",
             "description": "Sistem Informasi Rukun Warga 03",
-            "image": "/images/kelompok-2.png",
+            "image": "/images/kelompok-2.webp",
             "site" : "https://dua.campus-project.cloud",
             "github": "https://github.com/delafarahita/SIRW03.git",
             "maintainer": [
@@ -61,7 +61,7 @@
         {
             "title": "SIRTo",
             "description": "Sistem Informasi Rukun Tetangga Online",
-            "image": "/images/kelompok-3.png",
+            "image": "/images/kelompok-3.webp",
             "site" : "https://tiga.campus-project.cloud",
             "github": "https://github.com/amandafadilaerros/SiRTo",
             "maintainer": [
@@ -90,7 +90,7 @@
         {
             "title": "SatuRT",
             "description": "Sistem Administrasi Terpadu Rukun Tetangga",
-            "image": "/images/kelompok-4.png",
+            "image": "/images/kelompok-4.webp",
             "site" : "https://empat.campus-project.cloud",
             "github": "https://github.com/Eddav29/SatuRT/tree/dev",
             "maintainer": [
@@ -119,7 +119,7 @@
         {
             "title": "ComplexHub",
             "description": "Sistem Informasi Kompleks Perumahan",
-            "image": "/images/kelompok-5.png",
+            "image": "/images/kelompok-5.webp",
             "site" : "https://lima.campus-project.cloud",
             "github": "https://github.com/andybima6/ComplexHub.git",
             "maintainer": [
@@ -148,7 +148,7 @@
         {
             "title": "Siwet",
             "description": "Sistem Informasi Warga Era Baru",
-            "image": "/images/kelompok-6.png",
+            "image": "/images/kelompok-6.webp",
             "site" : "https://enam.campus-project.cloud",
             "github": "https://github.com/RiskiAbdiRahmawan/SIWET.git",
             "maintainer": [
