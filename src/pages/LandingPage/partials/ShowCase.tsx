@@ -69,7 +69,7 @@ const ShowCase: React.FC = () => {
                                 <a href={selectedItem.site} target='_blank' className='bg-indigo-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-indigo-600'>Visit Site</a>
                                 {/* github */}
                                 <a href={selectedItem.github} target='_blank' className='bg-gray-900 text-white px-4 py-2 rounded-md mt-4 inline-flex items-center gap-3 hover:bg-gray-700'>
-                                    <img src='/public/images/github-mark-white.svg' alt='image - github' className='h-6 w-6 object-contain'
+                                    <img src='/images/github-mark-white.svg' alt='image - github' className='h-6 w-6 object-contain'
                                     />Github</a>
                             </div>
                         </div>

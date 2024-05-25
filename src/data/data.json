@@ -3,7 +3,7 @@
         {
             "title": "Posyandu",
             "description": "Sistem Informasi Posyandu",
-            "image": "public/images/kelompok-1.png",
+            "image": "/images/kelompok-1.png",
             "site" : "https://satu.campus-project.cloud",
             "github": "https://github.com/MuhammadKhairunnasNurdin/Laravel_PBL.git",
             "maintainer": [
@@ -32,7 +32,7 @@
         {
             "title": "SIRW03",
             "description": "Sistem Informasi Rukun Warga 03",
-            "image": "public/images/kelompok-2.png",
+            "image": "/images/kelompok-2.png",
             "site" : "https://dua.campus-project.cloud",
             "github": "https://github.com/delafarahita/SIRW03.git",
             "maintainer": [
@@ -61,7 +61,7 @@
         {
             "title": "SIRTo",
             "description": "Sistem Informasi Rukun Tetangga Online",
-            "image": "public/images/kelompok-3.png",
+            "image": "/images/kelompok-3.png",
             "site" : "https://tiga.campus-project.cloud",
             "github": "https://github.com/amandafadilaerros/SiRTo",
             "maintainer": [
@@ -90,7 +90,7 @@
         {
             "title": "SatuRT",
             "description": "Sistem Administrasi Terpadu Rukun Tetangga",
-            "image": "public/images/kelompok-4.png",
+            "image": "/images/kelompok-4.png",
             "site" : "https://empat.campus-project.cloud",
             "github": "https://github.com/Eddav29/SatuRT/tree/dev",
             "maintainer": [
@@ -119,7 +119,7 @@
         {
             "title": "ComplexHub",
             "description": "Sistem Informasi Kompleks Perumahan",
-            "image": "public/images/kelompok-5.png",
+            "image": "/images/kelompok-5.png",
             "site" : "https://lima.campus-project.cloud",
             "github": "https://github.com/andybima6/ComplexHub.git",
             "maintainer": [
@@ -148,7 +148,7 @@
         {
             "title": "Siwet",
             "description": "Sistem Informasi Warga Era Baru",
-            "image": "public/images/kelompok-6.png",
+            "image": "/images/kelompok-6.png",
             "site" : "https://enam.campus-project.cloud",
             "github": "https://github.com/RiskiAbdiRahmawan/SIWET.git",
             "maintainer": [
