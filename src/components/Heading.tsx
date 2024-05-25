@@ -4,7 +4,7 @@ interface HeadingProps {
 
 const Heading : React.FC<HeadingProps> = ({title}) => {
     return (
-        <h1 className='md:text-4xl text-2xl font-bold text-gray-800'>
+        <h1 className='md:text-6xl text-5xl font-semibold text-gray-800 py-10'>
             {title}
         </h1>
     );
