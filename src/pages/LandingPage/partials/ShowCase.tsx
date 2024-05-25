@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Heading from "../../../components/Heading";
 import data from "../../../data/data.json";
+import Image from "../../../components/Image";
 
 interface ShowcaseItem {
   title: string;
@@ -37,23 +38,7 @@ const ShowCase: React.FC = () => {
               onClick={() => openModal(item)}
             >
               <div className="row-span-4 overflow-hidden">
-                <img
-                  draggable={false}
-                  src={item.image}
-                  loading="lazy"
-                  fetchPriority="high"
-                  decoding="async"
-                  srcSet={
-                    item.image +
-                    " 300w, " +
-                    item.image + " 768w, " +
-                    item.image + " 1280w" +
-                    item.image + " 1920w" +
-                    item.image + " 2560w"
-                  }
-                  alt={`image - ${item.title}`}
-                  className="w-full h-full object-cover rounded hover:scale-105 hover:grayscale transition-all duration-500"
-                />
+              <Image src={item.image} alt={`image - ${item.title}`} />
               </div>
               <div>
                 <h2 className="text-xl font-bold text-gray-800 mt-4">
@@ -76,15 +61,7 @@ const ShowCase: React.FC = () => {
               &times;
             </button>
             <div className="bg-white p-6 rounded-lg max-w-lg w-4/5 md:w-full">
-              <img
-                draggable={false}
-                src={selectedItem.image}
-                loading="lazy"
-                fetchPriority="high"
-                decoding="async"
-                alt={`image - ${selectedItem.title}`}
-                className="w-full h-3/4 object-cover rounded"
-              />
+              <Image src={selectedItem.image} alt={`image - ${selectedItem.title}`} />
               <h2 className="md:text-2xl text-xl font-bold text-gray-800 mt-4">
                 {selectedItem.title}
               </h2>
