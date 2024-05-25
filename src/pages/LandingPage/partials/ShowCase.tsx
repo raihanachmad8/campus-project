@@ -38,6 +38,7 @@ const ShowCase: React.FC = () => {
             >
               <div className="row-span-4 overflow-hidden">
                 <img
+                  draggable={false}
                   src={item.image}
                   alt={`image - ${item.title}`}
                   className="w-full h-full object-cover rounded hover:scale-105 hover:grayscale transition-all duration-500"
@@ -63,45 +64,48 @@ const ShowCase: React.FC = () => {
             >
               &times;
             </button>
-            <div className="bg-white p-6 rounded-lg max-w-lg w-full">
+            <div className="bg-white p-6 rounded-lg max-w-lg w-4/5 md:w-full">
               <img
+                draggable={false}
                 src={selectedItem.image}
                 alt={`image - ${selectedItem.title}`}
-                className="w-full h-64 object-cover rounded"
+                className="w-full h-3/4 object-cover rounded"
               />
-              <h2 className="text-2xl font-bold text-gray-800 mt-4">
+              <h2 className="md:text-2xl text-xl font-bold text-gray-800 mt-4">
                 {selectedItem.title}
               </h2>
-              <p className="text-gray-600 mt-2">{selectedItem.description}</p>
+              <p className="text-gray-600 mt-2 md:text-md text-sm">{selectedItem.description}</p>
               <hr />
-              <h3 className="text-lg font-bold text-gray-800 mt-4">
+              <h3 className="md:text-xl text-lg  font-bold text-gray-800 mt-4">
                 Maintainers
               </h3>
               <ul className="list-disc ml-6 mt-2">
                 {selectedItem.maintainer.map((maintainer, index) => (
-                  <li key={index}>
+                  <li key={index} className="text-xs md:text-sm">
                     {maintainer.name} - {maintainer.nim}
                   </li>
                 ))}
               </ul>
               <div className="flex items-center gap-3">
                 <a
+                draggable={false}
                   href={selectedItem.site}
                   target="_blank"
-                  className="bg-indigo-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-indigo-600"
+                  className="bg-indigo-500 text-white px-4 py-2 rounded-md mt-4 inline-block hover:bg-indigo-600 text-sm md:text-md select-none"
                 >
                   Visit Site
                 </a>
                 {/* github */}
                 <a
+                  draggable={false}
                   href={selectedItem.github}
                   target="_blank"
-                  className="bg-gray-900 text-white px-4 py-2 rounded-md mt-4 inline-flex items-center gap-3 hover:bg-gray-700"
+                  className="bg-gray-900 text-white px-4 py-2 rounded-md mt-4 inline-flex items-center gap-3 hover:bg-gray-700 text-sm md:text-md select-none"
                 >
                   <img
                     src="/images/github-mark-white.svg"
                     alt="image - github"
-                    className="h-6 w-6 object-contain"
+                    className="h-4 w-4 md:h-6 md:w-6 object-contain"
                   />
                   Github
                 </a>

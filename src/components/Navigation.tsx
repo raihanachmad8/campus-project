@@ -37,7 +37,7 @@ const Navigation: React.FC = () => {
           ?.classList.replace("text-black", "text-white");
       }
 
-      if (newY > 1830) {
+      if (newY > 1800 ) {
         setStateActive("Showcase");
       } else if (newY > 900) {
         setStateActive("About");
@@ -109,6 +109,7 @@ const Navigation: React.FC = () => {
             </li>
             <li className={`font-medium text-md select-none text-gray-500`}>
               <a
+                draggable={false}
                 href="https://stats.uptimerobot.com/vXneDveFtX"
                 target="_blank"
                 rel="noopener"
