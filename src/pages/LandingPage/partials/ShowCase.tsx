@@ -96,7 +96,7 @@ const ShowCase: React.FC = () => {
                   <img
                     src="/images/github-mark-white.svg"
                     alt="image - github"
-                    className="h-4 w-4 md:h-6 md:w-6 object-contain"
+                    className="h-4 w-4 object-contain"
                   />
                   Github
                 </a>
